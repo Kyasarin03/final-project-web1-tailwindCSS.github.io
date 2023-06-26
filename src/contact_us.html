@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="../src/img/favicon.png"/>
+    <style>
+        mobilecssinternal {
+            margin:0;
+            padding:0;
+            overflow-x: hidden;
+        }
+    </style>
+    </head>
+    <body style="mobilecssinternal">
+        <div class="flex py-3 px-10 bg-black place-content-end">
+            <a title="Profile" class="pr-7 py-3">
+                <img src="../src/img/icons8-user-24.png">
+            </a>
+            <a title="Help" class="pr-7 py-3">
+                <img src="../src/img/icons8-question-mark-24.png">
+            </a>
+            <a href="https://www.ea.com/"  title="EA Logo">
+                <img src="../src/img/EA-logofix.png">
+            </a>
+        </div>
+
+        <!-- Navbar goes here -->
+		<header class="bg-white sticky top-0">
+			<div class="max-w-6xl mx-auto px-4">
+				<div class="flex justify-between">
+                    <!-- Mobile menu button -->
+					<div class="md:hidden flex">
+						<button class="mobile-menu-button">
+                            <div class="space-y-2 mr-5">
+                                <span class="block md:w-1 md:h-1 w-8 h-0.5 hover:text-red-600 rounded-full bg-gray-600"></span>
+                                <span class="block md:w-1 md:h-1 w-8 h-0.5 hover:text-red-600 rounded-full bg-gray-600"></span>
+                                <span class="block md:w-1 md:h-1 w-8 h-0.5 hover:text-red-600 rounded-full bg-gray-600"></span>
+                            </div>  
+					    </button>
+					</div>
+					<div class="flex">
+						<div class="flex py-4">
+                            <div class="space-y-2 mr-5">
+                                <span class="block md:w-1 md:h-1 hover:text-red-600 rounded-full bg-gray-600"></span>
+                                <span class="block md:w-1 md:h-1 hover:text-red-600 rounded-full bg-gray-600"></span>
+                                <span class="block md:w-1 md:h-1 hover:text-red-600 rounded-full bg-gray-600"></span>
+                            </div>  
+							<!-- Website Logo -->
+							<a href="index.html" class="items-center">
+								<img src="../src/img/navbarlogofix.png" alt="Logo" class="mr-2">
+							</a>
+						</div>
+						<!-- Primary Navbar items -->
+						<div class="hidden md:flex items-center space-x-1">
+							<a href="" class="py-4 px-2 hover:text-red-600">Games</a>
+							<a href="" class="py-4 px-2 hover:text-red-600">More Experiences</a>
+							<a href="" class="py-4 px-2 hover:text-red-600">About</a>
+							<a href="" class="py-4 px-2 hover:text-red-600">Commitments</a>
+                            <a href="" class="py-4 px-2 hover:text-red-600">Resources</a>
+                            <a href="https://fti.unai.edu/" class="py-4 px-2 hover:text-red-600">FTI</a>
+                            <a href="https://unai.edu/" class="py-4 px-2 hover:text-red-600">UNAI</a>
+                            <a href="contact_us.html" class="py-4 px-2 hover:text-red-600">Contact Us</a>
+                            <a href="biodata.html" class="py-4 px-2 hover:text-red-600">Biodata</a>
+                            <a href="gallery.html" class="py-4 px-2 hover:text-red-600">Galery</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- mobile menu -->
+			<div class="md:hidden mobile-menu mx-7 ">
+				<ul class="">
+					<li><a href="" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">Games</a></li>
+					<li><a href="" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">More Experiences</a></li>
+					<li><a href="" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">About</a></li>
+                    <li><a href="" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">Commitments</a></li>
+                    <li><a href="" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">Resources</a></li>
+                    <li><a href="https://fti.unai.edu/" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">FTI</a></li>
+                    <li><a href="https://unai.edu/" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">UNAI</a></li>
+                    <li><a href="contact_us.html" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">Contact Us</a></li>
+                    <li><a href="biodata.html" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">Biodata</a></li>
+                    <li><a href="gallery.html" class="block text-sm px-2 py-4 border-b-2 border-black hover:text-red-600">Galery</a></li>
+				</ul>
+			</div>
+			<script>
+				const btn = document.querySelector("button.mobile-menu-button");
+				const menu = document.querySelector(".mobile-menu");
+
+				btn.addEventListener("click", () => {
+					menu.classList.toggle("hidden");
+				});
+			</script>
+		</header>
+
+        <section class="bg-no-repeat bg-cover" style="background-image: url('../src/img/content9.jpg')">
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+                <form action="#" class="space-y-8">
+                    <div>
+                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Full Name</label>
+                        <input type="text" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="your full name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
+                        <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="your email" required>
+                    </div>
+                    <div>
+                        <label for="username" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Username</label>
+                        <input type="text" id="username" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="your username" required>
+                    </div>
+                    <div>
+                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Password</label>
+                        <input type="password" id="password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="your password" required>
+                    </div>
+                    <div>
+                        <label for="gender" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Gender</label>
+                        <div class="flex items-center mb-4">
+                            <input id="gender-option-1" type="radio" name="gender" value="Male" class="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300" aria-labelledby="gender-option-1" aria-describedby="gender-option-1" checked="">
+                            <label for="gender-option-1" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Male</label>
+                        </div>
+                        <div class="flex items-center mb-4">
+                            <input id="gender-option-1" type="radio" name="gender" value="Male" class="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300" aria-labelledby="gender-option-1" aria-describedby="gender-option-1" checked="">
+                            <label for="gender-option-1" class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Female</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="religion" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Religion</label>
+                        <select id="religion" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option value="Kristen">Kristen</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Catholic">Catholic</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Address</label>
+                        <textarea id="address" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your address here..."></textarea>
+                    </div>
+                    <div>
+                        <label for="hobbies" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Hobbies</label>
+                        <div class="flex items-center mb-1">
+                            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Gardening</label>
+                        </div>
+                        <div class="flex items-center mb-1">
+                            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Reading</label>
+                        </div>
+                        <div class="flex items-center mb-1">
+                            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Playing Games</label>
+                        </div>
+                        <div class="flex items-center mb-1">
+                            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hiking</label>
+                        </div>
+                        <div class="flex items-center mb-1">
+                            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Running</label>
+                        </div>
+                        <div class="flex items-center mb-1">
+                            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Cooking</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Save</button>
+                </form>
+            </div>
+          </section>
+
+        <!--Keempat dari terakhir done-->
+        <div class="bg-gray-200 pt-10">
+            <p class="mt-4 md:ml-20 ml-10 text-base pb-5">*CONDITIONS,LIMITATIONS AND EXCLUSIONS APPLY. SEE <a class="text-red-600 text-base" href=" https://tos.ea.com/legalapp/eaplay/US/en/PC/ ">https://tos.ea.com/legalapp/eaplay/US/en/PC/</a> FOR DETAILS.</p>
+            <hr class="md:mx-20 mx-10" color="black">
+            <div class="md:flex md:ml-20 md:m-0 m-10 md:pt-10 tracking-wide">
+                <a class="md:mr-7 md:text-base text-sm hover:text-red-600 md:pr-0 pr-24" href="https://www.ea.com/careers" title="Careers">Careers</a>
+                <a class="md:mr-7 md:pr-0 pr-20 md:text-base text-sm hover:text-red-600" href="https://www.ea.com/technology" title="Executives">Executives</a>
+                <a class="md:mr-7 md:pr-0 pr-12 md:text-base text-sm hover:text-red-600" href="https://www.ea.com/ea-partners" title="Impact Report">Impact Report</a>
+                <a class="md:mr-7 md:pr-0 pr-10 md:text-base text-sm hover:text-red-600" href="https://www.ea.com/news" title="Our Commitments">Our Commitments</a>
+                <a class="md:mr-7 md:pr-0 pr-52 md:text-base text-sm hover:text-red-600" href="https://www.ea.com/inside-ea" title="Partner With Us">Partner With Us</a>
+                <a class="md:ml-72 md:mr-7 md:pr-0 pr-10 md:text-base text-sm">Join The Conversation</a>
+            </div>
+            <div class="flex flex-row-reverse mt-3 pb-14 mr-16">
+                <a class="mr-7" href="https://www.twitch.tv/ea"><img src="../src/img/twitch.png" title="Twitch"></a>
+                <a class="mr-7" href="https://www.instagram.com/ea"><img src="../src/img/instagram.png" title="Instagram"></a>
+                <a class="mr-7" href="https://www.youtube.com/EAvideos"><img src="../src/img/youtube.png" title="YouTube"></a>
+                <a class="mr-7" href="https://www.twitter.com/ea"><img src="../src/img/twitter.png" title="Twitter"></a>
+                <a class="mr-7" href="https://www.facebook.com/EA/"><img src="../src/img/facebook-app-symbol1.png" title="Facebook"></a>
+            </div>
+        </div>
+
+        <!--Ketiga dari terakhir done-->
+        <div class="md:flex mt-7 md:mb-0 mb-5">
+            <div class="md:ml-24 ml-5">
+                <img class="w-12" src="https://media.contentapi.ea.com/content/dam/eacom/en-us/common/october-ea-ring.png" alt=""/>
+            </div>
+            <div class="md:ml-4 ml-5 pt-3 tracking-wide">
+                <a class="md:mr-7 mr-10" href="/games/library" title="Game Library">Game Library</a>
+                <a class="md:mr-7 mr-20" href="/subscribe" title="Subscribe">Subscribe</a>
+                <a class="md:mr-7 mr-10" href="/redeem" title="Redeem Code">Redeem Code</a>
+                <a class="md:mr-7 mr-10" href="/ea-app" title="EA app">EA app</a>
+                <a class="md:mr-7 mr-10" href="/about" title="About">About</a>
+                <a class="md:mr-7 mr-10" href="/able" title="Accessibility">Accessibility</a>
+                <a class="md:mr-7" href="https://help.ea.com/" title="Help">Help</a>
+            </div>
+        </div>
+        
+        <!--Kedua dari terakhir done-->
+        <div class="md:ml-40 ml-5 tracking-wide">
+            <a class="mr-7 text-sm" href="http://www.ea.com/legal" title="Legal &amp; Privacy">Legal &amp; Privacy</a>
+            <a class="md:mr-7 mr-20 text-sm" href="https://www.ea.com/terms-of-service" title="NEW User Agreement">User Agreement</a>
+            <a class="md:mr-7 text-sm" href="https://www.ea.com/legal/privacy-and-cookie-policy" title="Privacy &amp; Cookie Policy (Your Privacy Rights)">Privacy &amp; Cookie Policy (Your Privacy Rights)</a>
+        </div>
+        <div class="md:ml-40 ml-5 tracking-wide">
+            <a class="mr-7 text-sm" href="/service-updates" title="Online Service Updates">Online Service Updates</a>
+            <a class="md:mr-7 mr-16 text-sm" href="/security" title="Security">Security</a>
+            <a class="md:mr-7 mr-40 text-sm" href="https://www.youtube.com/t/terms" title="YouTube Terms of Service">YouTube Terms of Service</a>
+            <a class="mr-7 text-sm" href="https://policies.google.com/privacy" title="Google Privacy Policy">Google Privacy Policy</a>
+        </div>
+
+        <!--Bagian paling terakhir done-->
+        <div class="md:flex flex-row mb-10">
+            <div class="md:basis-1/2 md:ml-40 ml-5 mt-6">
+                <a class="text-sm">&#169; 2022 Electronic Arts Inc.</a>
+            </div>
+            <div class="md:basis-1/4 md:ml-96 ml-5">
+                <a href="//privacy.truste.com/privacy-seal/validation?rid=f1a11c5d-0232-4077-8498-2e69a38c1335" target="_blank">
+                    <img src="//privacy-policy.truste.com/privacy-seal/seal?rid=f1a11c5d-0232-4077-8498-2e69a38c1335" alt="TRUSTe">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
